@@ -1,0 +1,40 @@
+/*---HEADER-----*/
+
+header{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 16%, rgba(4,39,62,1) 51%, rgba(0,212,255,1) 100%);
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+
+    h1{
+        font-size: 40px;
+        font-weight:500;
+        color:white;
+    }
+    nav{
+        ul{
+            list-style: none;
+            display: flex;
+
+            li{
+                list-style: none;
+                margin: 10px 15px 15px 10px;
+                display: flex;
+
+                a{
+                    text-decoration: none;
+                    color: white;
+                    transition: 0.5s;
+                    &:hover{
+                        color: rgb(53, 24, 24);
+}
+                    }
+                }
+            }
+        }
+    }
+

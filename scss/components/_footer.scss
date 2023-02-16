@@ -1,0 +1,16 @@
+/*----FOOTER---*/
+footer{
+    div{
+        img{
+            width: 30px;
+            height: 30px;
+            padding: 2px 3px;
+            transition: 1s;
+
+            &:hover{
+                transform: scale(1.1);
+
+            }
+        }
+    }
+}

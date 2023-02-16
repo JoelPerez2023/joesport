@@ -1,0 +1,118 @@
+//* VARIABLES
+
+
+//* LISTAS
+
+$colores:
+yellow,
+blue,
+white,
+black,
+red,
+gray;
+
+$font-size:
+12px,
+16px,
+18px,
+20px,
+26px,
+30px;
+
+
+
+//*OPERACIONES
+// + - * /
+
+//*ESPACIOS
+
+$spacing-large: 6rem;
+$spacing-medium: 2.4rem;
+$spacing-small: 2rem;
+$spacing-xsmall: 1rem;
+
+
+//*MAPAS
+
+$boton:(
+// key - value
+bg-boton: black,
+border-boton: 2px solid blue,
+colot-texto: white,
+ancho: 150px,
+);
+
+.boton{
+    background-color: map-get($boton, bg-boton);
+    border: map-get($boton, border-boton);
+    width: map-get($boton, ancho);
+}
+
+
+//* EXTENDS
+
+// % PLACERHOLDER
+
+%flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+//* MIXINS
+
+
+@mixin flex ($flex, $justify, $align){
+    display: $flex;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+//* CONDICIONALES
+//OPERADORES DE COMPARACION
+
+//== igual
+// != diferente
+//> mayor que
+//< menor que
+//>= mayor o igual
+//<= menor o igual
+
+/*
+if (condicional){
+    se ejecuta este codigo
+}else{
+    se ejecuta este otro
+}
+*/
+
+
+@mixin  modos ($darkmode){
+    @if $darkmode == black{
+        border: solid 2px blueviolet;
+    }@else{
+        border: solid 2px yellow;
+    }
+}
+
+.bg-condicion{
+    @include modos(pink)
+}
+
+//*BUCLE
+
+@for $i from 1 through 6{
+    .contenedor-#{$i}{
+        order: $i;
+    }
+}
+
+
+
+
+
+
+
+
+
