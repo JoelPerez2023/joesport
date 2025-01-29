@@ -1,5 +1,6 @@
 <h1 align="center">Hi 👋, I'm Joel Perez</h1>
 <h3 align="center">A passionate frontend developer from Venezuela</h3>
+<h3 align="center">Living in Argentina Buenos Aires</h3>
 <h3 align="center">30 Years Old</h3>
 
 
