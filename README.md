@@ -7,7 +7,7 @@
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-  "https://www.linkedin.com/in/joel-ygor-perez-perez-00b6b6140/"
+  https://www.linkedin.com/in/joel-ygor-perez-perez-00b6b6140/
 </p>
 </p>
 
