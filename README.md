@@ -8,7 +8,7 @@
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://instagram.com/jh.perezz" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="jh.perezz" height="30" width="40" /></a>
-  <a href="https://www.linkedin.com/in/joel-ygor-perez-perez-00b6b6140/" target="blank"/> </a>
+  <a href="https://www.linkedin.com/in/joel-ygor-perez-perez-00b6b6140/"/> </a>
 </p>
 </p>
 
